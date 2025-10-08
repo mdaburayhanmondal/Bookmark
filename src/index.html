@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookmark</title>
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav
+      class="mx-auto container grid grid-cols-1 md:grid-cols-[auto_1fr_auto] md:items-center px-4 py-10"
+    >
+      <!-- Left: Logo -->
+      <div><img src="images/logo-bookmark.svg" alt="logo" /></div>
+      <!-- Middle: Nav links -->
+      <ul
+        class="hidden md:grid md:grid-flow-col md:auto-cols-max md:gap-x-10 md:justify-end [&>li]:uppercase [&>li]:font-medium [&>li]:text-gray-400 [&>li]:hover:text-[#e7625d] [&>li]:hover:cursor-pointer"
+      >
+        <li>Features</li>
+        <li>Download</li>
+        <li>FAQ</li>
+      </ul>
+      <!-- Right: Button -->
+      <a
+        href="#"
+        class="hidden md:inline md:justify-self-end text-white uppercase font-medium md:ml-10 md:px-6 md:py-2 bg-[#e7625d] hover:bg-transparent hover:outline-2 hover:outline-[#e7625d] hover:text-[#e7625d] rounded-xl"
+        >Login</a
+      >
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      class="container mx-auto px-4 py-8 grid grid-cols-1 gap-y-2 justify-center md:grid md:grid-cols-2 md:items-center"
+    >
+      <div class="md:order-2">
+        <img src="images/illustration-hero.svg" class="w-full" />
+      </div>
+
+      <div class="mx-auto grid grid-cols-1 gap-y-6 md:order-1 md:gap-y-10">
+        <div class="grid grid-cols-1 gap-y-8">
+          <h1
+            class="text-center text-3xl font-extrabold md:text-left md:text-6xl"
+          >
+            A Simple Bookmark Manager
+          </h1>
+          <p
+            class="text-center text-gray-400 font-medium md:text-left md:text-2xl"
+          >
+            A clean and simple interface to organize your favourite websites.
+            Open a new browser tab and see your sites load instantly. Try it for
+            free.
+          </p>
+        </div>
+        <div
+          class="mx-auto md:mx-0 grid grid-flow-col auto-cols-max gap-x-4 justify-center md:justify-start"
+        >
+          <a
+            href="#"
+            class="p-4 bg-[#5766d8] text-white rounded-md hover:bg-transparent hover:text-[#5766d8] hover:outline-2 hover:outline-[#5766d8] font-medium md:text-xl duration-300"
+            >Get it on Chrome</a
+          >
+          <a
+            href="#"
+            class="p-4 bg-[#d2d5db] text-black rounded-md hover:bg-transparent hover:outline-2 hover:outline-[#d2d5db] font-medium md:text-xl"
+            >Get it on Firefox</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section
+      class="container mx-auto px-4 py-10 grid grid-col-1 gap-y-10 justify-center md:gap-y-14"
+    >
+      <div class="w-full mx-auto grid grid-cols-1 justify-center gap-y-6">
+        <h2 class="text-center text-4xl font-extrabold text-black">Features</h2>
+        <p
+          class="mx-auto text-center text-gray-400 font-medium w-90 md:w-[40%]"
+        >
+          Our aim is to make it quick and easy for you to access your favourite
+          websites. Your bookmarks sync between your devices so you can access
+          them on the go.
+        </p>
+      </div>
+
+      <ul
+        class="w-full grid grid-cols-1 justify-center gap-y-4 [&>li]:text-center [&>li]:tracking-wide [&>hr]:md:hidden md:grid-cols-3 md:items-center [&>li]:hover:cursor-pointer [&>li]:hover:underline [&>li]:hover:decoration-4 [&>li]:hover:decoration-[#e7625d] [&>li]:hover:underline-offset-10 [&>li]:transition-all [&>li]:duration-300 [&>hr]:w-full [&>hr]:text-gray-200"
+      >
+        <li>
+          <span class="animate-ping text-2xl text-[#e7625d]">- </span>Simple
+          Bookmarking<span class="animate-ping text-2xl text-[#e7625d]">
+            -</span
+          >
+        </li>
+        <hr />
+        <li>
+          <span class="animate-ping text-2xl text-[#e7625d]">- </span>Speedy
+          Searching<span class="animate-ping text-2xl text-[#e7625d]"> -</span>
+        </li>
+        <hr />
+        <li>
+          <span class="animate-ping text-2xl text-[#e7625d]">- </span>Easy
+          Sharing<span class="animate-ping text-2xl text-[#e7625d]"> -</span>
+        </li>
+        <hr />
+      </ul>
+
+      <div
+        class="grid grid-cols-1 justify-center gap-y-10 md:grid-cols-2 md:items-start md:gap-y-0 md:gap-x-20"
+      >
+        <div class="">
+          <img src="images/illustration-features-tab-2.svg" class="w-full" />
+        </div>
+        <div
+          class="mx-auto grid grid-cols-1 justify-center gap-y-6 md:gap-y-10"
+        >
+          <h3
+            class="text-center text-4xl font-extrabold md:text-left md:tracking-wide"
+          >
+            Intelligent Search
+          </h3>
+          <p
+            class="text-center text-gray-400 font-medium max-w-90 md:text-left md:max-w-[90%]"
+          >
+            Our powerful search feature will help you find saved sites in no
+            time at all. No need to trawl through all of your bookmarks.
+          </p>
+          <a
+            href="#"
+            class="inline-block mx-auto px-6 py-2 bg-[#5766d8] text-white font-bold rounded-md md:mx-0 md:w-max hover:bg-transparent hover:outline-2 outline-[#5766d8] hover:text-[#5766d8] duration-300"
+            >More Info</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <section
+      class="container mx-auto px-4 py-20 grid grid-cols-1 justify-center gap-y-20"
+    >
+      <div class="w-full mx-auto grid grid-cols-1 justify-center gap-y-6">
+        <h2 class="text-center text-4xl font-extrabold text-black">
+          Download the extension
+        </h2>
+        <p
+          class="mx-auto text-center text-gray-400 font-medium w-90 md:w-[40%]"
+        >
+          We've got more browsers in the pipeline. Please do let us know if
+          you've got a favourite you'd like us to prioritize.
+        </p>
+      </div>
+
+      <!-- Cards -->
+      <div
+        class="w-full mx-auto grid grid-cols-1 justify-center gap-y-6 md:gap-y-0 md:grid-cols-3"
+      >
+        <!-- Card 1 -->
+        <div
+          class="mx-auto w-[90%] p-6 grid grid-cols-1 gap-y-6 justify-center shadow-lg shadow-gray-200 rounded-xl md:w-[95%]"
+        >
+          <img src="images/logo-chrome.svg" alt="" class="mx-auto w-25" />
+          <div
+            class="py-4 grid grid-cols-1 gap-y-4 border-b-6 border-dotted border-gray-300"
+          >
+            <h4 class="text-2xl font-extrabold text-center">Add to Chrome</h4>
+            <p class="text-center text-gray-400">Minimum Version 62</p>
+          </div>
+          <a
+            href="#"
+            class="inline-block mx-auto px-6 py-2 md:px-8 md:py-4 bg-[#5766d8] text-white rounded-md md:max-w-max hover:bg-transparent hover:outline-2 outline-[#5766d8] hover:text-[#5766d8] duration-300"
+            >Add & Install Extension</a
+          >
+        </div>
+        <!-- Card 2 -->
+        <div
+          class="mx-auto w-[90%] p-6 grid grid-cols-1 gap-y-6 justify-center shadow-lg shadow-gray-200 rounded-xl md:w-[95%]"
+        >
+          <img src="images/logo-firefox.svg" alt="" class="mx-auto w-25" />
+          <div
+            class="py-4 grid grid-cols-1 gap-y-4 border-b-6 border-dotted border-gray-300"
+          >
+            <h4 class="text-2xl font-extrabold text-center">Add to Firefox</h4>
+            <p class="text-center text-gray-400">Minimum Version 55</p>
+          </div>
+          <a
+            href="#"
+            class="inline-block mx-auto px-6 py-2 md:px-8 md:py-4 bg-[#5766d8] text-white rounded-md md:max-w-max hover:bg-transparent hover:outline-2 outline-[#5766d8] hover:text-[#5766d8] duration-300"
+            >Add & Install Extension</a
+          >
+        </div>
+        <!-- Card 3 -->
+        <div
+          class="mx-auto w-[90%] p-6 grid grid-cols-1 gap-y-6 justify-center shadow-lg shadow-gray-200 rounded-xl md:w-[95%]"
+        >
+          <img src="images/logo-opera.svg" alt="" class="mx-auto w-25" />
+          <div
+            class="py-4 grid grid-cols-1 gap-y-4 border-b-6 border-dotted border-gray-300"
+          >
+            <h4 class="text-2xl font-extrabold text-center">Add to Opera</h4>
+            <p class="text-center text-gray-400">Minimum Version 46</p>
+          </div>
+          <a
+            href="#"
+            class="inline-block mx-auto px-6 py-2 md:px-8 md:py-4 bg-[#5766d8] text-white rounded-md md:max-w-max hover:bg-transparent hover:outline-2 outline-[#5766d8] hover:text-[#5766d8] duration-300"
+            >Add & Install Extension</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section
+      class="container lg:max-w-[50%] mx-auto px-4 pt-10 pb-20 grid grid-cols-1 justify-center gap-y-6"
+    >
+      <div class="grid grid-cols-1 justify-center gap-y-4">
+        <h4 class="text-center text-3xl font-bold xl:text-4xl">
+          Frequently Asked Questions
+        </h4>
+        <p class="text-center md:mx-auto xl:max-w-[60%]">
+          Here are some of our FAQs. If you have any other questions you'd like
+          answered please feel free to email us.
+        </p>
+      </div>
+      <ul class="[&>li]:py-2 [&>li]:border-b [&>li]:border-gray-200">
+        <li class="group cursor-pointer">
+          <p
+            class="font-medium tracking-wide text-gray-400 group-hover:text-[#e7625d]"
+          >
+            What is Bookmark?
+          </p>
+          <p
+            class="max-h-0 overflow-hidden opacity-0 transition-all duration-300 ease-in-out group-hover:max-h-40 group-hover:opacity-100"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+            repellat amet doloribus consequuntur eos similique provident tempora
+            voluptates iure quia fuga dicta voluptatibus culpa mollitia
+            recusandae delectus id suscipit labore?
+          </p>
+        </li>
+        <li class="group cursor-pointer">
+          <p
+            class="font-medium tracking-wide text-gray-400 group-hover:text-[#e7625d]"
+          >
+            How can I request a new browser?
+          </p>
+          <p
+            class="max-h-0 overflow-hidden opacity-0 transition-all duration-300 ease-in-out group-hover:max-h-40 group-hover:opacity-100"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+            repellat amet doloribus consequuntur eos similique provident tempora
+            voluptates iure quia fuga dicta voluptatibus culpa mollitia
+            recusandae delectus id suscipit labore?
+          </p>
+        </li>
+        <li class="group cursor-pointer">
+          <p
+            class="font-medium tracking-wide text-gray-400 group-hover:text-[#e7625d]"
+          >
+            Is ther a mobile app?
+          </p>
+          <p
+            class="max-h-0 overflow-hidden opacity-0 transition-all duration-300 ease-in-out group-hover:max-h-40 group-hover:opacity-100"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+            repellat amet doloribus consequuntur eos similique provident tempora
+            voluptates iure quia fuga dicta voluptatibus culpa mollitia
+            recusandae delectus id suscipit labore?
+          </p>
+        </li>
+        <li class="group cursor-pointer">
+          <p
+            class="font-medium tracking-wide text-gray-400 group-hover:text-[#e7625d]"
+          >
+            What about other Chromium browsers
+          </p>
+          <p
+            class="max-h-0 overflow-hidden opacity-0 transition-all duration-300 ease-in-out group-hover:max-h-40 group-hover:opacity-100"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+            repellat amet doloribus consequuntur eos similique provident tempora
+            voluptates iure quia fuga dicta voluptatibus culpa mollitia
+            recusandae delectus id suscipit labore?
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Email Subscription -->
+    <section class="mx-auto px-4 py-20 bg-[#5766d8]">
+      <div class="container mx-auto grid grid-cols-1 justify-center gap-y-6">
+        <p class="text-center text-white uppercase tracking-wider text-xl">
+          35,000+ Already Joined
+        </p>
+        <h4
+          class="mx-auto text-center text-3xl text-white font-extrabold md:max-w-[60%] lg:max-w-[40%] lg:text-4xl"
+        >
+          Stay up-to-date with what we're doing
+        </h4>
+        <div
+          class="mx-auto grid grid-rows-2 justify-center gap-y-4 md:grid-rows-1 md:grid-cols-[2fr_1fr] md:gap-y-0 md:gap-x-2 md:justify-center md:items-center"
+        >
+          <input
+            type="text"
+            placeholder="Enter your email address"
+            class="w-full bg-white px-4 py-2 rounded-lg"
+          />
+          <a
+            href="#"
+            class="max-w-max mx-auto text-white font-bold px-6 py-2 bg-[#e7625d] hover:bg-transparent hover:outline-2 hover:outline-[#e7625d] rounded-xl"
+            >Contact Us</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mx-auto px-4 py-20 bg-[#262b44]">
+      <nav
+        class="w-full mx-auto container grid grid-cols-1 justify-center items-center gap-y-10 md:grid-cols-[auto_1fr_auto] md:items-center md:gap-y-0"
+      >
+        <!-- Left: Logo -->
+        <div class="mx-auto">
+          <img src="images/logo-bookmark-footer.svg" alt="logo" />
+        </div>
+        <!-- Middle: Nav links -->
+        <ul
+          class="mx-auto grid grid-cols-1 gap-y-4 md:grid md:grid-flow-col md:auto-cols-max md:gap-x-10 md:justify-end [&>li]:uppercase [&>li]:font-medium [&>li]:text-gray-400 [&>li]:hover:text-[#e7625d] [&>li]:hover:cursor-pointer"
+        >
+          <li>Features</li>
+          <li>Download</li>
+          <li>FAQ</li>
+        </ul>
+        <div class="mx-auto grid grid-cols-2 gap-x-6">
+          <img
+            src="images/icon-facebook.svg"
+            alt="facebook icon"
+            class="max-w-20 hover:scale-110 duration-300 hover:cursor-pointer"
+          />
+          <img
+            src="images/icon-twitter.svg"
+            alt="twitter icon"
+            class="max-w-20 hover:scale-110 duration-300 hover:cursor-pointer"
+          />
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
